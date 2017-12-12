@@ -1,0 +1,235 @@
+.cinema_info{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    background: #eee;
+    overflow: hidden;
+}
+.wrapper_cinema{
+    width: 100%;
+}
+.district{
+    border-bottom: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.district .district_title{
+    padding: 0 15px;
+    height: 40px;
+    line-height: 40px;
+    background: #e1e1e1;
+    color: #636363;
+    font-size: 14px;
+    width: 100%;
+}
+.district_info{
+    width: 100%;
+    padding: 10px 15px;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+.district_info .film_title_box{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: text-top;
+    max-width: 80%;
+    font-weight: normal;
+}
+.film_title_box strong{
+    font-size: 14px;
+    font-weight: 400;
+}
+.film_title_box span{
+    font-size: 8px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align:center;
+    line-height: 15px;
+
+}
+.film_title_box .tong_left{
+    margin-left: 20px;
+    border: 1px solid #fc8558;
+    color: #fc8558;
+}
+.film_title_box .tong_right{
+    margin-left: 5px;
+    border: 1px solid #88aec8;
+    color: #88aec8;
+}
+.activice{
+    margin-bottom: 5px;
+}
+.activice span{
+    font-size: 10px;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin: 0 5px;
+    color: #fff;
+    height: 15px;
+    line-height: 15px;
+}
+.description_address{
+    display: inline-block;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+    color: #ccc;
+}
+.sundry{
+    background: #51add0;
+}
+.discount{
+    background:#ff9658;
+}
+.distance{
+    font-size: 12px;
+    color: #ccc;
+}
+.btnIcon{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+}
+.btnIcon i{
+    color: #eee;
+}
+/* 详情
+ */
+ .cinema_detail{
+    padding-top: 50px;
+    background: #eee;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+}
+ .wrapper_cinema_detail{
+     width: 100%;
+     height: 179px;
+ }
+ .wrapper_cinema_detail img{
+     width: 100%;
+ }
+ .detail_list{
+    background: #f9f9f9;
+ }
+ .detail_list li{
+     padding: 20px 10px 0;
+     position: relative;
+     overflow: hidden;
+ }
+ .icon_info{
+     display: block;
+     float: left;
+     margin-right: 15px;
+
+ }
+ .icon_info i{
+     color: #ff8160;
+     font-size: 22px;
+ }
+ .info_list{
+     border-bottom: 1px solid #eee;
+     padding-bottom: 20px;
+     float: left;
+     width: 80%;
+ }
+ .info_list h3{
+    font-size: 15px;
+    color: #000;
+    font-weight: normal;
+    height: 25px;
+    line-height: 25px;
+ }
+ .info_list p{
+    color: #737373;
+    font-size: 12px;
+    line-height: 20px;
+ }
+ .reservations{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 95px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background: #fe8233;
+    border-radius: 38px;
+    border: 1px solid #fe8233;
+ }
+ .reservations span{
+     color: #fff;
+     font-size: 12px;
+ }
+ .bg_none{
+    background: #f9f9f9;
+    
+ }
+ .bg_none span{
+    color: #fe8233;
+ }
+ .bg_icon_info i{
+    color: #40b5b5;
+ }
+ .bg_seller_info i{
+     color: #3697d1;
+    
+ }
+ .address_info i{
+     color: #7bafe1;
+ }
+ .call_info i{
+     color: #df8f9f;
+     
+ }
+ .pic_icon_info{
+     margin-top: 15px;
+    padding: 10px 15px 30px;
+    background: #f9f9f9;
+ }
+ .list_icon {
+    display: flex;
+     border-bottom: 1px solid #eee;
+ }
+ .list_icon li{
+    flex: 1;
+    text-align: center;
+ }
+ .list_icon li .icon_img{
+    text-align: center;
+    width: 38px;
+    height: 39px;
+    border: 1px solid #eee;
+    display: inline-block;
+    border-radius: 50%;
+ }
+ .icon_img img{
+     width: 100%;
+
+ }
+ .pic_title {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #737373;
+ }
+ .tishi{
+     margin-top: 5px;
+     font-size: 12px;
+     color: #666;
+ }

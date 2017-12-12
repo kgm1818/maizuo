@@ -1,0 +1,232 @@
+.page{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.main_box{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
+    background: #eee;
+}
+.banner_box{
+    width: 100%;
+    height: 210px;
+}
+.swiper-wrapper,.swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    width: 100%;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.list_box{
+    width: 100%;
+}
+.list_box .list_info{
+    width: 100%;
+    padding-top: 10px;
+}
+.list_info .hot_films{
+    padding: 0 15px;
+
+}
+.hot_films li{
+    width: 100%;
+    margin-bottom: 17px;
+    background: #fff;
+}
+.img_info{
+    width: 100%;
+    height: 191px;
+}
+.img_info img{
+    width: 100%;
+}
+.hot_info{
+    position: relative;
+    padding-left: 10px;
+    
+}
+.hot_info h3{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+.hot_info p{
+    color: #9a9a9a;;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-bottom:5px;
+
+}
+.hot_info span{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 16px;
+    color: red;
+}
+.hot_more,.will_more{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.will_films{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.films_title{
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #a7a7a7;
+    margin: 20px 0;
+}
+.films_title span{
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    background: #a7a7a7;
+    color: #eee;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    transform: translateY(9px)
+}
+.will_films_info{
+    padding: 0 15px;
+
+}
+.will_films_info li{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 15px;
+
+}
+.will_films_info li:last-child {
+    background: #ddd;
+}
+.will_img{
+    width: 100%;
+    height: 191px;
+}
+.will_img img{
+    width: 100%;
+}
+.will_info {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+.will_info span{
+    display: inline-block;
+    width: 50%;
+}
+.will_info span:last-child{
+    color: rgb(245, 162, 125);
+    padding-right: 40px;
+    box-sizing: border-box; 
+    text-align: right;
+}
+
+/* 详情 */
+.detail_box{
+    width: 100%;
+}
+.detail_info{
+    position: absolute;
+    padding-top: 50px;
+    background: #eee;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.wrapper_detail{
+    width: 100%;
+    padding: 0 0 100px;
+    overflow-y: auto;
+    height: 100%;
+}
+.detail_pic{
+    height: 210px;
+    width: 100%;
+    overflow: hidden;
+}
+.detail_pic img{
+    width: 100%;
+}
+.detail_content{
+    padding-left: 17px;
+}
+.detail_title{
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+    position: relative;
+    font-weight: 400;
+}
+.detail_title .bg_c1{
+    position: absolute;
+    left: -17px;
+    top: 0;
+    width: 17px;
+    height: 100%;
+    background: lemonchiffon;
+
+}
+.detail_content p{
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #333;
+}
+.detail_content .content_des{
+    line-height: 20px;
+    font-size: 12px;
+    padding-right: 20px;
+}
+.detail_content .immediately{
+    height: 35px;
+    position: fixed;
+    bottom: 20px;
+    margin-left: -20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.immediately span{
+    width: 40%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    background: #fe8233;
+    display: inline-block;
+    height: 100%;
+    line-height: 35px;
+}
